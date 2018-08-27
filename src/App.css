@@ -1,0 +1,486 @@
+* {
+  font-family: "Raleway", sans-serif;
+}
+
+.root {
+  height: 100%;
+  width: 100%;
+}
+
+a:hover {
+  color: #47ffbb;
+  text-decoration: none;
+}
+
+body {
+  height: 100%;
+  width: 100%;
+  background-image: url("../src/images/9A2A8277.JPG");
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+/*PHONES SIZE*/
+@media only screen and (min-width: 200px) and (max-width: 699px) {
+  /* GLOBAL CONTROLS */
+  .opening {
+    margin: 15px auto 15px auto;
+    height: 700px;
+    width: 90%;
+    background-color: rgba(255, 255, 255, 0.3);
+  }
+
+  /*HEADER CONTROLS*/
+  .logo {
+    height: 37px;
+    width: auto;
+    margin: 15px 0px 0px 5px;
+  }
+
+  .links {
+    background-color: transparent;
+    margin: 15px 0px 0px 0px;
+    padding: 0;
+    float: right;
+  }
+
+  .portfolio,
+  .about,
+  .contact {
+    background: none;
+    border: none;
+    font-size: 17px;
+    color: #efefef;
+    display: inline-block;
+    margin-right: 15px;
+  }
+  .about,
+  .contact {
+    margin-top: 10px;
+  }
+  /*------------------------*/
+
+  /*OPENING CONTROLS*/
+  .h1A {
+    text-align: center;
+    padding-top: 200px;
+    font-size: 40px;
+    color: #e1e1e1;
+  }
+
+  .p1A {
+    text-align: center;
+    font-size: 15px;
+    color: #e1e1e1;
+  }
+
+  .click {
+    margin-top: 300px;
+    bottom: 10px;
+    font-size: 20px;
+    color: #e1e1e1;
+    text-align: center;
+  }
+  /*------------------------*/
+
+  /*ABOUT CONTROLS*/
+  .left {
+    margin: 0 auto;
+    padding: 0;
+  }
+
+  .right {
+    margin: 0 auto;
+    padding: 0;
+    text-align: right;
+  }
+
+  .head-shot {
+    width: 150px;
+    height: auto;
+    margin: 10px;
+  }
+
+  .about-h2 {
+    margin: 5px 10px 0px 0px;
+    color: black;
+  }
+
+  .about-p {
+    margin: 5px 10px 0px 0px;
+    color: grey;
+    font-size: 13px;
+  }
+
+  .about-p2 {
+    margin: 10px 10px 0px 0px;
+    color: grey;
+    font-size: 12px;
+  }
+
+  .explain {
+    margin: 270px 20px 5px 20px;
+    color: #e1e1e1;
+    font-size: 20px;
+    text-align: center;
+  }
+
+  .social {
+    margin: 0px auto 0px auto;
+    text-align: center;
+  }
+
+  .instagram,
+  .linkedin,
+  .facebook,
+  .email,
+  .github {
+    height: 35px;
+    width: auto;
+    margin: 15px;
+  }
+  /*------------------------*/
+}
+
+/*TABLET AND SMALL LAPTOP*/
+@media only screen and (min-width: 700px) and (max-width: 1019px) {
+  /* GLOBAL CONTROLS */
+  .opening {
+    margin: 35px auto 15px auto;
+    height: 700px;
+    width: 90%;
+    background-color: rgba(255, 255, 255, 0.3);
+  }
+  /*HEADER CONTROLS*/
+  .logo {
+    height: 37px;
+    width: auto;
+    margin: 25px 0px 0px 15px;
+  }
+
+  .links {
+    background-color: transparent;
+    margin: 27px 0px 0px 0px;
+  }
+
+  .portfolio,
+  .about,
+  .contact {
+    background: none;
+    border: none;
+    font-size: 20px;
+    color: #efefef;
+    margin-right: 20px;
+    display: inline-block;
+  }
+  /*------------------------*/
+
+  /*OPENING CONTROLS*/
+  .h1A {
+    text-align: center;
+    padding-top: 300px;
+    font-size: 65px;
+    color: white;
+  }
+
+  .p1A {
+    text-align: center;
+    font-size: 25px;
+    color: white;
+  }
+
+  .click {
+    display: none;
+  }
+  /*-------------------*/
+
+  /*ABOUT CONTROLS*/
+  .left {
+    margin: 0 auto;
+    height: 700px;
+    padding: 0;
+  }
+
+  .right {
+    margin: 0 auto;
+    padding: 0;
+    text-align: right;
+  }
+
+  .head-shot {
+    width: 250px;
+    height: auto;
+    margin: 30px;
+  }
+
+  .about-h2 {
+    margin: 50px 50px 0px 0px;
+    color: white;
+    font-size: 40px;
+  }
+
+  .about-p {
+    margin: 10px 50px 0px 0px;
+    color: white;
+    font-size: 20px;
+  }
+
+  .about-p2 {
+    margin: 10px 50px 0px 0px;
+    color: white;
+    font-size: 18px;
+  }
+
+  .explain {
+    margin: 200px 60px 15px 50px;
+    color: white;
+    font-size: 25px;
+    text-align: right;
+  }
+
+  .social {
+    margin: 0 auto;
+    text-align: center;
+  }
+
+  .instagram,
+  .linkedin,
+  .facebook {
+    height: 50px;
+    width: auto;
+    margin: 25px;
+  }
+  /*------------------------*/
+}
+
+/*Regular Screen*/
+@media only screen and (min-width: 1020px) and (max-width: 1439px) {
+  /* GLOBAL CONTROLS */
+  .opening {
+    margin: 35px auto 15px auto;
+    height: 700px;
+    width: 90%;
+    background-color: rgba(255, 255, 255, 0.3);
+  }
+  /*HEADER CONTROLS*/
+  .logo {
+    height: 40px;
+    width: auto;
+    margin: 25px 0px 0px 15px;
+  }
+
+  .links {
+    background-color: transparent;
+    margin: 30px 0px 0px 0px;
+  }
+
+  .portfolio,
+  .about,
+  .contact {
+    background: none;
+    border: none;
+    font-size: 20px;
+    color: #efefef;
+    margin-right: 20px;
+    display: inline-block;
+  }
+  /*------------------------*/
+
+  /*OPENING CONTROLS*/
+  .h1A {
+    text-align: center;
+    padding-top: 300px;
+    font-size: 65px;
+    color: white;
+  }
+
+  .p1A {
+    text-align: center;
+    font-size: 25px;
+    color: white;
+  }
+  .click {
+    display: none;
+  }
+  /*-------------------*/
+
+  /*ABOUT CONTROLS*/
+  .left {
+    margin: 0 auto;
+    height: 700px;
+    padding: 0;
+  }
+
+  .right {
+    margin: 0 auto;
+    padding: 0;
+    text-align: right;
+  }
+
+  .head-shot {
+    width: 220px;
+    height: auto;
+    margin: 50px;
+  }
+
+  .about-h2 {
+    margin: 50px 50px 0px 0px;
+    color: white;
+    font-size: 40px;
+  }
+
+  .about-p {
+    margin: 10px 50px 0px 0px;
+    color: white;
+    font-size: 20px;
+  }
+
+  .about-p2 {
+    margin: 10px 50px 0px 0px;
+    color: white;
+    font-size: 18px;
+  }
+
+  .explain {
+    margin: 200px 60px 15px 50px;
+    color: white;
+    font-size: 25px;
+    text-align: right;
+  }
+
+  .social {
+    margin: 0 auto;
+    text-align: center;
+  }
+
+  .instagram,
+  .linkedin,
+  .facebook,
+  .email,
+  .github {
+    height: 45px;
+    width: auto;
+    margin: 25px;
+  }
+  /*------------------------*/
+}
+
+/*Large Screen*/
+@media only screen and (min-width: 1440px) and (max-width: 2000px) {
+  /* GLOBAL CONTROLS */
+  .opening {
+    margin: 35px auto 15px auto;
+    height: 700px;
+    width: 90%;
+    background-color: rgba(255, 255, 255, 0.3);
+  }
+
+  /*HEADER CONTROLS*/
+  .header-row {
+    background-color: transparent;
+  }
+
+  .logo {
+    height: 50px;
+    width: auto;
+    margin: 30px 0px 0px 20px;
+  }
+
+  .links {
+    background-color: transparent;
+    margin: 35px 0px 0px 0px;
+  }
+
+  .portfolio,
+  .about,
+  .contact {
+    background: none;
+    border: none;
+    font-size: 25px;
+    color: #efefef;
+    margin-right: 20px;
+    display: inline-block;
+  }
+  /*------------------------*/
+
+  /*OPENING CONTROLS*/
+  .h1A {
+    text-align: center;
+    padding-top: 300px;
+    font-size: 65px;
+    color: white;
+  }
+
+  .p1A {
+    text-align: center;
+    font-size: 25px;
+    color: white;
+  }
+
+  .click {
+    display: none;
+  }
+  /*------------------------*/
+
+  /*ABOUT CONTROLS*/
+  .left {
+    margin: 0 auto;
+    height: 700px;
+    padding: 0;
+  }
+
+  .right {
+    margin: 0 auto;
+    padding: 0;
+    text-align: right;
+  }
+
+  .head-shot {
+    width: 400px;
+    height: auto;
+    margin: 50px;
+  }
+
+  .about-h2 {
+    margin: 50px 50px 0px 0px;
+    color: white;
+    font-size: 40px;
+  }
+
+  .about-p {
+    margin: 10px 50px 0px 0px;
+    color: white;
+    font-size: 20px;
+  }
+
+  .about-p2 {
+    margin: 10px 50px 0px 0px;
+    color: white;
+    font-size: 18px;
+  }
+
+  .explain {
+    margin: 200px 60px 0px 50px;
+    color: white;
+    font-size: 25px;
+    text-align: right;
+  }
+
+  .social {
+    margin: 0 auto;
+    padding: 0;
+    text-align: center;
+    display: block;
+  }
+
+  .instagram,
+  .linkedin,
+  .facebook,
+  .email,
+  .github {
+    height: 45px;
+    width: auto;
+    margin: 65px 45px 0px 45px;
+  }
+  /*------------------------*/
+}
