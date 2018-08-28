@@ -130,11 +130,7 @@ body {
     text-align: center;
   }
 
-  .instagram,
-  .linkedin,
-  .facebook,
-  .email,
-  .github {
+  .social-img {
     height: 35px;
     width: auto;
     margin: 15px;
@@ -289,12 +285,14 @@ body {
     text-align: center;
   }
 
-  .instagram,
-  .linkedin,
-  .facebook {
+  .social-img {
     height: 50px;
     width: auto;
     margin: 25px;
+  }
+  .social-img:hover {
+    transition: all 0.8s ease;
+    animation: greyscale 1s forwards;
   }
   /*------------------------*/
   /*PORTFOLIO CONTROLS*/
@@ -445,15 +443,19 @@ body {
     text-align: center;
   }
 
-  .instagram,
-  .linkedin,
-  .facebook,
-  .email,
-  .github {
+  .social-img {
+    -webkit-filter: grayscale(100%);
+    filter: grayscale(100%);
     height: 45px;
     width: auto;
     margin: 25px;
   }
+
+  .social-img:hover {
+    animation: greyscale 1s forwards;
+    transition: all 0.8s ease;
+  }
+
   /*------------------------*/
   /*PORTFOLIO CONTROLS*/
   .projects {
@@ -611,14 +613,18 @@ body {
     display: block;
   }
 
-  .instagram,
-  .linkedin,
-  .facebook,
-  .email,
-  .github {
+  .social-img {
+    -webkit-filter: grayscale(100%);
+    filter: grayscale(100%);
     height: 45px;
     width: auto;
     margin: 65px 45px 0px 45px;
+    transition: all 0.8s ease;
+  }
+
+  .social-img:hover {
+    transition: all 0.8s ease;
+    animation: greyscale 1s forwards;
   }
   /*------------------------*/
 

@@ -1,6 +1,6 @@
 import React from "react";
 import photo from "../images/9A2A8274.JPG";
-import Insta from "../images/insta.png";
+import Insta from "../images/instagram.png";
 import Facebook from "../images/facebook.png";
 import LinkedIn from "../images/linkedin.png";
 import Email from "../images/gmail.png";
@@ -29,22 +29,37 @@ const About = () => (
           </p>
           <div className="social">
             <a href="https://www.instagram.com/aj.holsinger" target="blank_">
-              <img className="instagram" src={Insta} alt="yeah" />
+              <img
+                className="social-img"
+                id="instagram"
+                src={Insta}
+                alt="yeah"
+              />
             </a>
             <a href="https://www.facebook.com/aj.holsinger" target="blank_">
-              <img className="facebook" src={Facebook} alt="yeah" />
+              <img
+                className="social-img"
+                id="facebook"
+                src={Facebook}
+                alt="yeah"
+              />
             </a>
             <a
               href="https://www.linkedin.com/in/aj-holsinger-8b83a815a/"
               target="blank_"
             >
-              <img className="linkedin" src={LinkedIn} alt="yeah" />
+              <img
+                className="social-img"
+                id="linkedin"
+                src={LinkedIn}
+                alt="yeah"
+              />
             </a>
             <a href="https://www.github.com/aj.holsinger" target="blank_">
-              <img className="github" src={Github} alt="yeah" />
+              <img className="social-img" id="github" src={Github} alt="yeah" />
             </a>
             <a href="mailto:ajholsinger@austinholsinger.com">
-              <img className="email" src={Email} alt="yeah" />
+              <img className="social-img" id="email" src={Email} alt="yeah" />
             </a>
           </div>
         </div>
