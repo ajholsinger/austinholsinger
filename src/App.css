@@ -17,7 +17,7 @@ body {
   width: 100%;
   background-image: url("../src/images/9A2A8277.JPG");
   background-size: cover;
-  background-repeat: no-repeat;
+  background-repeat: repeat;
 }
 
 /*PHONES SIZE*/
@@ -140,6 +140,52 @@ body {
     margin: 15px;
   }
   /*------------------------*/
+  /*PORTFOLIO CONTROLS*/
+  .projects {
+    text-align: center;
+  }
+
+  @keyframes greyscale {
+    from {
+      -webkit-filter: grayscale(100%);
+      filter: grayscale(100%);
+    }
+    to {
+      -webkit-filter: grayscale(0%);
+      filter: grayscale(0%);
+    }
+  }
+  .project-img {
+    -webkit-filter: grayscale(100%);
+    filter: grayscale(100%);
+    height: 100px;
+    width: auto;
+    margin: 40px 50px 0px 50px;
+    transition: all 0.8s ease;
+  }
+
+  .project-img:hover {
+    animation: greyscale 1s forwards;
+    transition: all 0.8s ease;
+  }
+
+  .lang-logos {
+    text-align: center;
+  }
+
+  .lang-logo-img {
+    height: 50px;
+    width: auto;
+    -webkit-filter: grayscale(100%);
+    filter: grayscale(100%);
+    margin: 40px 10px 0px 10px;
+  }
+
+  .lang-logo-img:hover {
+    animation: greyscale 1s forwards;
+    transition: all 0.8s ease;
+  }
+  /*-----------------------*/
 }
 
 /*TABLET AND SMALL LAPTOP*/
@@ -251,6 +297,52 @@ body {
     margin: 25px;
   }
   /*------------------------*/
+  /*PORTFOLIO CONTROLS*/
+  .projects {
+    text-align: center;
+  }
+
+  @keyframes greyscale {
+    from {
+      -webkit-filter: grayscale(100%);
+      filter: grayscale(100%);
+    }
+    to {
+      -webkit-filter: grayscale(0%);
+      filter: grayscale(0%);
+    }
+  }
+  .project-img {
+    -webkit-filter: grayscale(100%);
+    filter: grayscale(100%);
+    height: 125px;
+    width: auto;
+    margin: 40px 50px 0px 50px;
+    transition: all 0.8s ease;
+  }
+
+  .project-img:hover {
+    animation: greyscale 1s forwards;
+    transition: all 0.8s ease;
+  }
+
+  .lang-logos {
+    text-align: center;
+  }
+
+  .lang-logo-img {
+    height: 80px;
+    width: auto;
+    -webkit-filter: grayscale(100%);
+    filter: grayscale(100%);
+    margin: 40px 15px 0px 15px;
+  }
+
+  .lang-logo-img:hover {
+    animation: greyscale 1s forwards;
+    transition: all 0.8s ease;
+  }
+  /*-----------------------*/
 }
 
 /*Regular Screen*/
@@ -363,10 +455,56 @@ body {
     margin: 25px;
   }
   /*------------------------*/
+  /*PORTFOLIO CONTROLS*/
+  .projects {
+    text-align: center;
+  }
+
+  @keyframes greyscale {
+    from {
+      -webkit-filter: grayscale(100%);
+      filter: grayscale(100%);
+    }
+    to {
+      -webkit-filter: grayscale(0%);
+      filter: grayscale(0%);
+    }
+  }
+  .project-img {
+    -webkit-filter: grayscale(100%);
+    filter: grayscale(100%);
+    height: 200px;
+    width: auto;
+    margin: 40px 30px 0px 30px;
+    transition: all 0.8s ease;
+  }
+
+  .project-img:hover {
+    animation: greyscale 1s forwards;
+    transition: all 0.8s ease;
+  }
+
+  .lang-logos {
+    text-align: center;
+  }
+
+  .lang-logo-img {
+    height: 50px;
+    width: auto;
+    -webkit-filter: grayscale(100%);
+    filter: grayscale(100%);
+    margin: 40px 30px 0px 30px;
+  }
+
+  .lang-logo-img:hover {
+    animation: greyscale 1s forwards;
+    transition: all 0.8s ease;
+  }
+  /*-----------------------*/
 }
 
 /*Large Screen*/
-@media only screen and (min-width: 1440px) and (max-width: 2000px) {
+@media only screen and (min-width: 1440px) and (max-width: 3000px) {
   /* GLOBAL CONTROLS */
   .opening {
     margin: 35px auto 15px auto;
@@ -483,4 +621,51 @@ body {
     margin: 65px 45px 0px 45px;
   }
   /*------------------------*/
+
+  /*PORTFOLIO CONTROLS*/
+  .projects {
+    text-align: center;
+  }
+
+  @keyframes greyscale {
+    from {
+      -webkit-filter: grayscale(100%);
+      filter: grayscale(100%);
+    }
+    to {
+      -webkit-filter: grayscale(0%);
+      filter: grayscale(0%);
+    }
+  }
+  .project-img {
+    -webkit-filter: grayscale(100%);
+    filter: grayscale(100%);
+    height: 200px;
+    width: auto;
+    margin: 40px 30px 0px 30px;
+    transition: all 0.8s ease;
+  }
+
+  .project-img:hover {
+    animation: greyscale 1s forwards;
+    transition: all 0.8s ease;
+  }
+
+  .lang-logos {
+    text-align: center;
+  }
+
+  .lang-logo-img {
+    height: 100px;
+    width: auto;
+    -webkit-filter: grayscale(100%);
+    filter: grayscale(100%);
+    margin: 100px 30px 0px 30px;
+  }
+
+  .lang-logo-img:hover {
+    animation: greyscale 1s forwards;
+    transition: all 0.8s ease;
+  }
+  /*-----------------------*/
 }
