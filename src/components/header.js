@@ -18,6 +18,9 @@ const Header = () => (
         <a href="about" className="about">
           About
         </a>
+        <a href="blog" className="blog">
+          Blog
+        </a>
       </div>
     </div>
   </div>
