@@ -544,6 +544,68 @@ body {
     font-size: 18px;
   }
   /*-----------------------*/
+
+  /* SERVICES CONTROLS */
+  .services-dev {
+    margin: 0 auto;
+    padding: 20px;
+  }
+
+  .services-dev a {
+    color: grey;
+  }
+
+  .services-web {
+    background-color: rgba(255, 255, 255, 0.7);
+    text-align: center;
+    padding: 50px 25px;
+    margin: 20px;
+    height: 150px;
+    width: auto;
+  }
+
+  .fullstack {
+    margin: auto;
+    padding: 0 auto;
+    font-size: 20px;
+  }
+
+  .services-graphic {
+    background-color: rgba(255, 255, 255, 0.7);
+    text-align: center;
+    padding: 65px 25px;
+    margin: 20px;
+    height: 150px;
+    width: auto;
+  }
+
+  .graphic {
+    margin: auto;
+    padding: 0 auto;
+    font-size: 20px;
+  }
+
+  .services-video {
+    background-color: rgba(255, 255, 255, 0.7);
+    text-align: center;
+    padding: 65px 25px;
+    margin: 20px;
+    height: 150px;
+    width: auto;
+  }
+
+  .videoediting {
+    margin: auto;
+    padding: 0 auto;
+    font-size: 20px;
+  }
+
+  .click-links {
+    font-size: 15px;
+    color: #e1e1e1;
+    padding: 0 auto;
+    text-align: center;
+  }
 }
 
 /*Regular Screen*/
@@ -770,6 +832,68 @@ body {
     font-size: 18px;
   }
   /*-----------------------*/
+
+  /* SERVICES CONTROLS */
+  .services-dev {
+    margin: 0 auto;
+    padding: 20px;
+  }
+
+  .services-dev a {
+    color: grey;
+  }
+
+  .services-web {
+    background-color: rgba(255, 255, 255, 0.7);
+    text-align: center;
+    padding: 50px 25px;
+    margin: 20px;
+    height: 150px;
+    width: auto;
+  }
+
+  .fullstack {
+    margin: auto;
+    padding: 0 auto;
+    font-size: 20px;
+  }
+
+  .services-graphic {
+    background-color: rgba(255, 255, 255, 0.7);
+    text-align: center;
+    padding: 65px 25px;
+    margin: 20px;
+    height: 150px;
+    width: auto;
+  }
+
+  .graphic {
+    margin: auto;
+    padding: 0 auto;
+    font-size: 20px;
+  }
+
+  .services-video {
+    background-color: rgba(255, 255, 255, 0.7);
+    text-align: center;
+    padding: 65px 25px;
+    margin: 20px;
+    height: 150px;
+    width: auto;
+  }
+
+  .videoediting {
+    margin: auto;
+    padding: 0 auto;
+    font-size: 20px;
+  }
+
+  .click-links {
+    font-size: 15px;
+    color: #e1e1e1;
+    padding: 0 auto;
+    text-align: center;
+  }
 }
 
 /*Large Screen*/
@@ -1006,4 +1130,66 @@ body {
     font-size: 18px;
   }
   /*-----------------------*/
+
+  /* SERVICES CONTROLS */
+  .services-dev {
+    margin: 0 auto;
+    padding: 20px;
+  }
+
+  .services-dev a {
+    color: grey;
+  }
+
+  .services-web {
+    background-color: rgba(255, 255, 255, 0.7);
+    text-align: center;
+    padding: 65px 25px;
+    margin: 20px;
+    height: 150px;
+    width: auto;
+  }
+
+  .fullstack {
+    margin: auto;
+    padding: 0 auto;
+    font-size: 20px;
+  }
+
+  .services-graphic {
+    background-color: rgba(255, 255, 255, 0.7);
+    text-align: center;
+    padding: 65px 25px;
+    margin: 20px;
+    height: 150px;
+    width: auto;
+  }
+
+  .graphic {
+    margin: auto;
+    padding: 0 auto;
+    font-size: 20px;
+  }
+
+  .services-video {
+    background-color: rgba(255, 255, 255, 0.7);
+    text-align: center;
+    padding: 65px 25px;
+    margin: 20px;
+    height: 150px;
+    width: auto;
+  }
+
+  .videoediting {
+    margin: auto;
+    padding: 0 auto;
+    font-size: 20px;
+  }
+
+  .click-links {
+    font-size: 15px;
+    color: black;
+    padding: 0 auto;
+    text-align: center;
+  }
 }
