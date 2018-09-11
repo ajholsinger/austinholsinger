@@ -11,7 +11,7 @@ const Header = () => (
           alt={logo}
         />
       </a>
-      <div className="col-xs-9 col-sm-7 col-md-7 col-lg-7 links">
+      <div className="col-xs-9 col-sm-8 col-md-7 col-lg-7 links">
         <a href="portfolio" className="portfolio">
           Portfolio
         </a>
@@ -20,6 +20,9 @@ const Header = () => (
         </a>
         <a href="blog" className="blog">
           Blog
+        </a>
+        <a href="services" className="services">
+          Services
         </a>
       </div>
     </div>

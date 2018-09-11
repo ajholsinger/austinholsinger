@@ -1,5 +1,7 @@
 * {
   font-family: "Raleway", sans-serif;
+  margin: 0;
+  padding: 0;
 }
 
 .root {
@@ -25,13 +27,14 @@ body {
   /* GLOBAL CONTROLS */
   .opening {
     margin: 15px auto 15px auto;
-    height: 700px;
+    height: auto;
     width: 90%;
     background-color: rgba(255, 255, 255, 0.3);
   }
 
   /*HEADER CONTROLS*/
   .logo {
+    padding: 0 auto;
     height: 37px;
     width: auto;
     margin: 15px 0px 0px 5px;
@@ -41,13 +44,14 @@ body {
     background-color: transparent;
     margin: 15px 0px 0px 0px;
     padding: 0;
-    float: right;
+    float: left;
   }
 
   .portfolio,
   .about,
   .contact,
-  .blog {
+  .blog,
+  .services {
     background: none;
     border: none;
     font-size: 17px;
@@ -73,14 +77,42 @@ body {
     text-align: center;
     font-size: 15px;
     color: #e1e1e1;
+    margin: 0;
+  }
+
+  .p1B {
+    text-align: center;
+    padding-right: 100px;
+    font-size: 14px;
+    color: #e1e1e1;
+    margin: 0;
+  }
+
+  .p1C {
+    text-align: center;
+    padding-right: 68px;
+    font-size: 14px;
+    color: #e1e1e1;
+    margin: 0;
   }
 
   .click {
-    margin-top: 300px;
-    bottom: 10px;
+    margin: 0 auto;
+    padding: 0 auto;
+    margin-top: 80px;
     font-size: 20px;
     color: #e1e1e1;
+  }
+
+  .open-portfolio,
+  .open-about,
+  .open-services,
+  .open-blog {
+    margin: auto;
     text-align: center;
+    height: 60px;
+    width: 130px;
+    color: #e1e1e1;
   }
   /*------------------------*/
 
@@ -109,19 +141,19 @@ body {
 
   .about-p {
     margin: 5px 10px 0px 0px;
-    color: grey;
+    color: black;
     font-size: 13px;
   }
 
   .about-p2 {
     margin: 10px 10px 0px 0px;
-    color: grey;
+    color: black;
     font-size: 12px;
   }
 
   .explain {
     margin: 270px 20px 5px 20px;
-    color: #e1e1e1;
+    color: black;
     font-size: 20px;
     text-align: center;
   }
@@ -168,6 +200,7 @@ body {
 
   .lang-logos {
     text-align: center;
+    padding: 5px;
   }
 
   .lang-logo-img {
@@ -189,6 +222,7 @@ body {
   .blog-area {
     padding-top: 20px;
   }
+
   .blog-entry {
     padding-top: 10px;
     height: 200px;
@@ -227,8 +261,69 @@ body {
     font-size: 18px;
   }
   /*-----------------------*/
-}
 
+  /* SERVICES CONTROLS */
+  .services-dev {
+    margin: 0 auto;
+    padding: 20px;
+  }
+
+  .services-dev a {
+    color: grey;
+  }
+
+  .services-web {
+    background-color: rgba(255, 255, 255, 0.7);
+    text-align: center;
+    padding: 50px 25px;
+    margin: 20px;
+    height: 150px;
+    width: auto;
+  }
+
+  .fullstack {
+    margin: auto;
+    padding: 0 auto;
+    font-size: 20px;
+  }
+
+  .services-graphic {
+    background-color: rgba(255, 255, 255, 0.7);
+    text-align: center;
+    padding: 65px 25px;
+    margin: 20px;
+    height: 150px;
+    width: auto;
+  }
+
+  .graphic {
+    margin: auto;
+    padding: 0 auto;
+    font-size: 20px;
+  }
+
+  .services-video {
+    background-color: rgba(255, 255, 255, 0.7);
+    text-align: center;
+    padding: 65px 25px;
+    margin: 20px;
+    height: 150px;
+    width: auto;
+  }
+
+  .videoediting {
+    margin: auto;
+    padding: 0 auto;
+    font-size: 20px;
+  }
+
+  .click-links {
+    font-size: 15px;
+    color: #e1e1e1;
+    padding: 0 auto;
+    text-align: center;
+  }
+}
 /*TABLET AND SMALL LAPTOP*/
 @media only screen and (min-width: 700px) and (max-width: 1019px) {
   /* GLOBAL CONTROLS */
@@ -253,7 +348,8 @@ body {
   .portfolio,
   .about,
   .contact,
-  .blog {
+  .blog,
+  .services {
     background: none;
     border: none;
     font-size: 20px;
@@ -273,8 +369,25 @@ body {
 
   .p1A {
     text-align: center;
+    margin: 0;
     font-size: 25px;
     color: white;
+  }
+
+  .p1B {
+    text-align: center;
+    padding-right: 160px;
+    font-size: 25px;
+    color: #e1e1e1;
+    margin: 0;
+  }
+
+  .p1C {
+    text-align: center;
+    padding-right: 100px;
+    font-size: 25px;
+    color: #e1e1e1;
+    margin: 0;
   }
 
   .click {
@@ -457,7 +570,8 @@ body {
   .portfolio,
   .about,
   .contact,
-  .blog {
+  .blog,
+  .services {
     background: none;
     border: none;
     font-size: 20px;
@@ -479,7 +593,25 @@ body {
     text-align: center;
     font-size: 25px;
     color: white;
+    margin: 0;
   }
+
+  .p1B {
+    text-align: center;
+    padding-right: 165px;
+    font-size: 24px;
+    color: #e1e1e1;
+    margin: 0;
+  }
+
+  .p1C {
+    text-align: center;
+    padding-right: 110px;
+    font-size: 24px;
+    color: #e1e1e1;
+    margin: 0;
+  }
+
   .click {
     display: none;
   }
@@ -669,7 +801,8 @@ body {
   .portfolio,
   .about,
   .contact,
-  .blog {
+  .blog,
+  .services {
     background: none;
     border: none;
     font-size: 25px;
@@ -691,6 +824,23 @@ body {
     text-align: center;
     font-size: 25px;
     color: white;
+    margin: 0;
+  }
+
+  .p1B {
+    text-align: center;
+    padding-right: 165px;
+    font-size: 24px;
+    color: white;
+    margin: 0;
+  }
+
+  .p1C {
+    text-align: center;
+    padding-right: 110px;
+    font-size: 24px;
+    color: white;
+    margin: 0;
   }
 
   .click {
@@ -779,6 +929,7 @@ body {
       filter: grayscale(0%);
     }
   }
+
   .project-img {
     -webkit-filter: grayscale(100%);
     filter: grayscale(100%);
@@ -815,6 +966,7 @@ body {
   .blog-area {
     padding-top: 20px;
   }
+
   .blog-entry {
     padding-top: 10px;
     height: 200px;

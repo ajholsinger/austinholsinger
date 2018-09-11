@@ -4,6 +4,7 @@ import Opening from "../components/opening";
 import Portfolio from "../components/portfolio";
 import About from "../components/about";
 import Blog from "../components/blog";
+import Services from "../components/services";
 
 const Main = () => (
   <Router>
@@ -13,6 +14,7 @@ const Main = () => (
         <Route exact path="/portfolio" component={Portfolio} />
         <Route exact path="/about" component={About} />
         <Route exact path="/blog" component={Blog} />
+        <Route exact path="/services" component={Services} />
       </Switch>
     </main>
   </Router>
