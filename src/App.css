@@ -4,22 +4,20 @@
   padding: 0;
 }
 
-.root {
-  height: 100%;
-  width: 100%;
-}
-
 a:hover {
   color: #47ffbb;
   text-decoration: none;
 }
 
-body {
+#root,
+html {
   height: 100%;
   width: 100%;
-  background-image: url("../src/images/9A2A8277.JPG");
+  background: url("../src/images/9A2A8277.JPG");
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
   background-size: cover;
-  background-repeat: repeat;
 }
 
 /*PHONES SIZE*/
@@ -220,15 +218,18 @@ body {
   /*BLOG CONTROLS*/
 
   .blog-area {
-    padding-top: 20px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    text-align: center;
   }
 
   .blog-entry {
     padding-top: 10px;
+    padding-bottom: 10px;
     height: 200px;
-    width: 300px;
+    width: auto;
     background-color: rgba(255, 255, 255, 0.5);
-    margin: 0px auto 20px auto;
+    margin: 20px;
   }
 
   .entry-img {
@@ -504,14 +505,16 @@ body {
   /*BLOG CONTROLS*/
   .blog-area {
     padding-top: 20px;
+    text-align: center;
   }
+
   .blog-entry {
-    padding-top: 10px;
+    display: inline-block;
+    padding-top: 20px;
     height: 200px;
     width: 300px;
     background-color: rgba(255, 255, 255, 0.5);
-    margin: 0px auto 20px auto;
-    position: relative;
+    margin: 20px;
   }
 
   .entry-img {
@@ -792,14 +795,16 @@ body {
   /*BLOG CONTROLS*/
   .blog-area {
     padding-top: 20px;
+    text-align: center;
   }
+
   .blog-entry {
-    padding-top: 10px;
+    display: inline-block;
+    padding-top: 20px;
     height: 200px;
     width: 300px;
     background-color: rgba(255, 255, 255, 0.5);
-    margin: 0px auto 20px auto;
-    position: relative;
+    margin: 20px 30px 20px auto;
   }
 
   .entry-img {
@@ -1089,15 +1094,16 @@ body {
   /*BLOG CONTROLS*/
   .blog-area {
     padding-top: 20px;
+    text-align: center;
   }
 
   .blog-entry {
-    padding-top: 10px;
+    display: inline-block;
+    padding-top: 20px;
     height: 200px;
     width: 300px;
     background-color: rgba(255, 255, 255, 0.5);
-    margin: 0px auto 20px auto;
-    position: relative;
+    margin: 20px 30px 20px auto;
   }
 
   .entry-img {

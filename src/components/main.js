@@ -5,6 +5,7 @@ import Portfolio from "../components/portfolio";
 import About from "../components/about";
 import Blog from "../components/blog";
 import Services from "../components/services";
+import Fullstack from "../components/fullstack";
 
 const Main = () => (
   <Router>
@@ -15,6 +16,7 @@ const Main = () => (
         <Route exact path="/about" component={About} />
         <Route exact path="/blog" component={Blog} />
         <Route exact path="/services" component={Services} />
+        <Route exact path="/services-fullstack" component={Fullstack} />
       </Switch>
     </main>
   </Router>

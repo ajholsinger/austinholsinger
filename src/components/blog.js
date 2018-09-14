@@ -10,6 +10,28 @@ const Blog = () => (
             <img className="entry-img" src={blogImg} alt="img" />
             <div className="name-date">
               <div className="entry-name">ajholsinger</div>
+              <div className="entry-date">September 13, 2018</div>
+            </div>
+            <div className="entry-desc">
+              Also, don't think the site is completed yet! Major updates coming
+              soon.
+            </div>
+          </div>
+          <div className="blog-entry">
+            <img className="entry-img" src={blogImg} alt="img" />
+            <div className="name-date">
+              <div className="entry-name">ajholsinger</div>
+              <div className="entry-date">September 13, 2018</div>
+            </div>
+            <div className="entry-desc">
+              Made huge steps toward success today. I can't wait to see what
+              lies ahead!
+            </div>
+          </div>
+          <div className="blog-entry">
+            <img className="entry-img" src={blogImg} alt="img" />
+            <div className="name-date">
+              <div className="entry-name">ajholsinger</div>
               <div className="entry-date">September 5, 2018</div>
             </div>
             <div className="entry-desc">
